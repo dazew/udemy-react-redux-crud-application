@@ -9,6 +9,7 @@ class App extends Component {
 
 }
 */
+/*
 function App(){
 //  const greeting ="H1!??"
 //  const dom = <h1 className="foo">{greeting}</h1>
@@ -18,6 +19,22 @@ function App(){
       <input type="text" onChange={()=>{console.log("I am clicked.")}} />
     </React.Fragment>
   );
+}
+*/
+
+const App = () => {
+  return (
+    <div>H1 function conponent!
+      <Cat />
+      <Cat />
+      <Cat />
+    </div>
+    
+    )
+}
+
+const Cat = () => {
+  return <div>Meow!</div>
 }
 
 export default App;
